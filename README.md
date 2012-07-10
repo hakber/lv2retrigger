@@ -5,19 +5,19 @@ by Håkan Bernhardsson 2012. It's not meant to be a super sweet standalone proje
 it's simply a lv2 retrigger for anyone to use/implement.
 
 Need I say more?
-----------------------------------------------------------------------------------------
-Requirements:
 
+Requirements:
+----------------------------------------------------------------------------------------
 *lv2
 *lv2-c++
 *the usual stuff you know...
-----------------------------------------------------------------------------------------
-Installation:
 
+Installation:
+----------------------------------------------------------------------------------------
 Simply:
 make
 make install (as root)
-----------------------------------------------------------------------------------------
-License:
 
+License:
+----------------------------------------------------------------------------------------
 lv2retrigger is released under the GPLv3, see COPYING for more details.
