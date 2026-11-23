@@ -1,0 +1,19 @@
+substitutions: {}
+options:
+  machineType: E2_STANDARD_2
+  logging: CLOUD_LOGGING_ONLY
+timeout: 300s
+tags:
+  - ox64-smoke
+steps:
+  - name: ubuntu:22.04
+    entrypoint: bash
+    args:
+      - -c
+      - |
+        set -Eeuo pipefail
+        echo "OX64_SMOKE_BEGIN"
+        uname -s
+        uname -m
+        nproc
+        echo "OX64_SMOKE_OK"
